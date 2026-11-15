@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Finance DPC</string>
+
+    <string name="status_device_owner">Device Owner: ACTIVE</string>
+    <string name="status_profile_owner">Profile Owner (not a Device Owner)</string>
+    <string name="status_admin_only">Device admin active, but NOT Device Owner</string>
+    <string name="status_not_admin">NOT provisioned (no admin rights)</string>
+
+    <string name="detail_device_owner">This app is the Device Owner. Payment policies can be enforced in later stages. You can always review what the app controls on this screen.</string>
+    <string name="detail_not_owner">This app cannot enforce any device policy until it is set as Device Owner on a freshly reset test device.</string>
+
+    <string name="env_format">Package: %1$s\nAndroid: %2$s (API %3$d)\nBuild: %4$s</string>
+
+    <string name="help_title">Provision this test device (adb method)</string>
+    <string name="help_body">1. Factory-reset the test device (or use a fresh emulator image).\n2. Skip Google account sign-in; make sure no accounts exist.\n3. Enable USB debugging and install this app.\n4. Run on your computer:\n\nadb shell dpm set-device-owner %1$s</string>
+
+    <string name="btn_refresh">Re-check status</string>
+    <string name="btn_release_debug">Release device ownership (debug builds only)</string>
+    <string name="release_confirm_title">Release device ownership?</string>
+    <string name="release_confirm_msg">This removes this app as Device Owner. Use only on test devices.</string>
+    <string name="release_confirm_yes">Release</string>
+    <string name="release_confirm_no">Cancel</string>
+    <string name="release_done">Ownership released.</string>
+    <string name="release_failed">Could not release ownership.</string>
+
+    <string name="admin_disable_requested">Disabling this app may affect your installment agreement. See Support for details.</string>
+</resources>

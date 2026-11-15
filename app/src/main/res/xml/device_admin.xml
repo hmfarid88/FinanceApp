@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- A Device Owner does not need to declare legacy device-admin policies.
+     Policies are applied through DevicePolicyManager APIs (added in later stages). -->
+<device-admin xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-policies />
+</device-admin>
